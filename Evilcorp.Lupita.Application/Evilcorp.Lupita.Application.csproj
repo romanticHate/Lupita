@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Exeptions\" />
+    <Folder Include="Common\Mapping\" />
+    <Folder Include="Common\Dtos\" />
+    <Folder Include="Recipe\Commands\" />
+    <Folder Include="Recipe\EventHandler\" />
+    <Folder Include="Recipe\Queries\" />
+  </ItemGroup>
+
+</Project>
